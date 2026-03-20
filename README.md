@@ -6,4 +6,4 @@ I think it's becoming less common of a gift but I think many households still ke
 - Some FRS channels are lower power, so if you want alerts for that you need to make a separate above-floor threshold for 8-14
 - You must set the discord webhook in main,py or it won't send alerts (guh)
 - The 2 most important constants for configuration are SIGNAL_THRESHOLD and CONFIRM_CYCLES. Signal threshold filters out weak interference, (db above floor), and cycles determines how many scans activity on a channel must be to be considered a real transmission and not just an RF spike. Alert cooldown ofc prevents your webhook from being spammed.
-!(demo.PNG)
+![](/demo.PNG)
